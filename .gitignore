@@ -1,0 +1,20 @@
+node_modules
+dist
+.env
+*.log
+.DS_Store
+*.tsbuildinfo
+
+# Whisper models
+agent/models/*.bin
+
+# Extension builds
+extension/dist
+extension/build
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+

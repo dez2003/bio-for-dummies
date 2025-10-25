@@ -1,0 +1,6 @@
+packages:
+  - 'extension'
+  - 'server'
+  - 'agent'
+  - 'packages/*'
+

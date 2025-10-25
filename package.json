@@ -1,0 +1,23 @@
+{
+  "name": "bio-for-dummies-voice",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "extension",
+    "server",
+    "agent",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:server": "pnpm --filter server dev",
+    "dev:agent": "pnpm --filter agent dev",
+    "dev:extension": "pnpm --filter extension dev",
+    "build:all": "pnpm -r build",
+    "clean": "pnpm -r clean"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  }
+}
+
